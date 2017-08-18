@@ -14,6 +14,8 @@
 		92055BF61EDFDA4000093771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92055BF41EDFDA4000093771 /* LaunchScreen.storyboard */; };
 		92055C011EDFDA4000093771 /* Remote2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92055C001EDFDA4000093771 /* Remote2Tests.swift */; };
 		92055C0C1EDFDA4000093771 /* Remote2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92055C0B1EDFDA4000093771 /* Remote2UITests.swift */; };
+		92055C1B1EDFDC1F00093771 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92055C1A1EDFDC1F00093771 /* GoogleService-Info.plist */; };
+		9846B797CFB363D5597EE0BA /* libPods-Remote2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 888B91812C276476B66AA472 /* libPods-Remote2.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D828FF5AD077A79CBE9AF54 /* Pods_Remote2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Remote2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BC228E32A194049AB1A7BC /* Pods-Remote2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Remote2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Remote2/Pods-Remote2.debug.xcconfig"; sourceTree = "<group>"; };
+		888B91812C276476B66AA472 /* libPods-Remote2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Remote2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92055BE81EDFDA4000093771 /* Remote2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remote2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92055BEB1EDFDA4000093771 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92055BED1EDFDA4000093771 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,9 @@
 		92055C071EDFDA4000093771 /* Remote2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Remote2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92055C0B1EDFDA4000093771 /* Remote2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remote2UITests.swift; sourceTree = "<group>"; };
 		92055C0D1EDFDA4000093771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92055C191EDFDA6000093771 /* Remote2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Remote2.entitlements; sourceTree = "<group>"; };
+		92055C1A1EDFDC1F00093771 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E4D15B55AE8899066A9F1184 /* Pods-Remote2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Remote2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Remote2/Pods-Remote2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9846B797CFB363D5597EE0BA /* libPods-Remote2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D9D6343EC7892B5D3D83423 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84BC228E32A194049AB1A7BC /* Pods-Remote2.debug.xcconfig */,
+				E4D15B55AE8899066A9F1184 /* Pods-Remote2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		92055BDF1EDFDA4000093771 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +99,8 @@
 				92055BFF1EDFDA4000093771 /* Remote2Tests */,
 				92055C0A1EDFDA4000093771 /* Remote2UITests */,
 				92055BE91EDFDA4000093771 /* Products */,
+				3D9D6343EC7892B5D3D83423 /* Pods */,
+				B0B15F0171D000BA4AE9DD12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +117,8 @@
 		92055BEA1EDFDA4000093771 /* Remote2 */ = {
 			isa = PBXGroup;
 			children = (
+				92055C191EDFDA6000093771 /* Remote2.entitlements */,
+				92055C1A1EDFDC1F00093771 /* GoogleService-Info.plist */,
 				92055BEB1EDFDA4000093771 /* AppDelegate.swift */,
 				92055BED1EDFDA4000093771 /* ViewController.swift */,
 				92055BEF1EDFDA4000093771 /* Main.storyboard */,
@@ -125,6 +147,15 @@
 			path = Remote2UITests;
 			sourceTree = "<group>";
 		};
+		B0B15F0171D000BA4AE9DD12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D828FF5AD077A79CBE9AF54 /* Pods_Remote2Tests.framework */,
+				888B91812C276476B66AA472 /* libPods-Remote2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92055C101EDFDA4000093771 /* Build configuration list for PBXNativeTarget "Remote2" */;
 			buildPhases = (
+				BB2EA2670253229A83932E35 /* [CP] Check Pods Manifest.lock */,
 				92055BE41EDFDA4000093771 /* Sources */,
 				92055BE51EDFDA4000093771 /* Frameworks */,
 				92055BE61EDFDA4000093771 /* Resources */,
+				AF2DBA57B2DA1E96740F5BBC /* [CP] Embed Pods Frameworks */,
+				72324C4249965BA848BD26D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +229,14 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = ZY3B78M368;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					92055BFB1EDFDA4000093771 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -236,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92055BF61EDFDA4000093771 /* LaunchScreen.storyboard in Resources */,
+				92055C1B1EDFDC1F00093771 /* GoogleService-Info.plist in Resources */,
 				92055BF31EDFDA4000093771 /* Assets.xcassets in Resources */,
 				92055BF11EDFDA4000093771 /* Main.storyboard in Resources */,
 			);
@@ -256,6 +299,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72324C4249965BA848BD26D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Remote2/Pods-Remote2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF2DBA57B2DA1E96740F5BBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Remote2/Pods-Remote2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB2EA2670253229A83932E35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		92055BE41EDFDA4000093771 /* Sources */ = {
@@ -415,8 +506,10 @@
 		};
 		92055C111EDFDA4000093771 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84BC228E32A194049AB1A7BC /* Pods-Remote2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Remote2/Remote2.entitlements;
 				DEVELOPMENT_TEAM = ZY3B78M368;
 				INFOPLIST_FILE = Remote2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -428,8 +521,10 @@
 		};
 		92055C121EDFDA4000093771 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4D15B55AE8899066A9F1184 /* Pods-Remote2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Remote2/Remote2.entitlements;
 				DEVELOPMENT_TEAM = ZY3B78M368;
 				INFOPLIST_FILE = Remote2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
